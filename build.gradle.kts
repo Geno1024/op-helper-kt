@@ -26,10 +26,10 @@ tasks.withType<KotlinCompile> {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "com.geno1024.ophelper.MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "op-helper"
+            packageName = "com.geno1024.op-helper"
             packageVersion = "1.0.0"
         }
     }
